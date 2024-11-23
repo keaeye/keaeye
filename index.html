@@ -1,18 +1,62 @@
 <!DOCTYPE html>
 <html id="html">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>KEAEYE | 恺烨</title>
-	<link rel="icon" href="./static/img/favicon.ico">
-	<meta name="description" content="I'm keaeye[恺烨]，一名热爱技术，爱捣鼓的人。📝喜欢分享技术，乐于结交朋友。循光而行，永远热泪盈眶，永远相信梦想——陈恺烨">
-	<meta name="keywords" content="keaeye,操作系统,逆向工程,Python,Web开发,全栈开发,C语言,汇编,Win32开发,加密与解密,Linux教学编,编程资源,编程学习,计算机,自学编程，恺烨，陈恺烨">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<link rel="stylesheet" href="./static/css/style.css">
-	<link rel="stylesheet" href="./static/css/theme.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>KEAEYE | 恺烨</title>
+    <link rel="icon" href="./static/img/favicon.ico">
+    <meta name="description" content="I'm keaeye[恺烨]，一名热爱技术，爱捣鼓的人。📝喜欢分享技术，乐于结交朋友。循光而行，永远热泪盈眶，永远相信梦想——陈恺烨">
+    <meta name="keywords" content="keaeye,操作系统,逆向工程,Python,Web开发,全栈开发,C语言,汇编,Win32开发,加密与解密,Linux教学编,编程资源,编程学习,计算机,自学编程，恺烨，陈恺烨">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="./static/css/style.css">
+    <link rel="stylesheet" href="./static/css/theme.css">
+
+    <!-- 欢迎动画的 CSS -->
+    <style>
+        #welcome-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+        }
+        #welcome-logo {
+            width: 150px;
+            height: auto;
+            opacity: 0;
+            animation: fadeInOut 3s ease-in-out;
+        }
+        @keyframes fadeInOut {
+            0% { opacity: 0; transform: scale(0.5); }
+            50% { opacity: 1; transform: scale(1); }
+            100% { opacity: 0; transform: scale(1.5); }
+        }
+    </style>
+
+    <!-- 欢迎动画的 JS -->
+    <script>
+        window.onload = function () {
+            setTimeout(function () {
+                document.getElementById("welcome-screen").style.display = "none"; // 隐藏欢迎屏幕
+                document.querySelector(".container-filter").style.display = "block"; // 显示主内容
+                document.querySelector(".container-main").style.display = "block"; // 显示主内容
+            }, 3000); // 动画持续时间
+        };
+    </script>
 </head>
 
 <body>
+    <!-- 欢迎屏幕 -->
+    <div id="welcome-screen">
+        <img id="welcome-logo" src="./static/img/logotext.png" alt="KEAEYE">
+    </div>
+
+    <!-- 页面内容 -->
 	<div class="container-filter"></div>
 	<div class="container-main">
 		<div class="container-left">
