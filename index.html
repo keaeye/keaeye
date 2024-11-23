@@ -24,15 +24,17 @@
             align-items: center;
             justify-content: center;
             z-index: 9999;
+            opacity: 1;
+            transition: opacity 2s ease-out; /* 控制背景渐变 */
         }
         #welcome-logo {
             width: 150px;
             height: auto;
-            opacity: 0;
-            animation: fadeInOut 3s ease-in-out;
+            opacity: 1;
+            animation: fadeInOut 3s ease-in-out forwards;
         }
         @keyframes fadeInOut {
-            0% { opacity: 0; transform: scale(0.5); }
+            0% { opacity: 1; transform: scale(0.5); }
             50% { opacity: 1; transform: scale(1); }
             100% { opacity: 0; transform: scale(1.5); }
         }
@@ -42,14 +44,19 @@
     <script>
         window.onload = function () {
             setTimeout(function () {
-                document.getElementById("welcome-screen").style.display = "none"; // 隐藏欢迎屏幕
-                document.querySelector(".container-filter").style.display = "block"; // 显示主内容
-                document.querySelector(".container-main").style.display = "block"; // 显示主内容
+                // 控制欢迎动画淡出
+                document.getElementById("welcome-screen").style.opacity = "0";
+                
+                // 延迟显示页面内容
+                setTimeout(function () {
+                    document.getElementById("welcome-screen").style.display = "none"; // 隐藏欢迎屏幕
+                    document.querySelector(".container-filter").style.display = "block"; // 显示主内容
+                    document.querySelector(".container-main").style.display = "block"; // 显示主内容
+                }, 2000); // 等待背景透明化后再隐藏欢迎屏幕
             }, 3000); // 动画持续时间
         };
     </script>
 </head>
-
 <body>
     <!-- 欢迎屏幕 -->
     <div id="welcome-screen">
