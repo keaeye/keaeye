@@ -1,5 +1,5 @@
 [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=keaeye&theme=merko)](https://github.com/ashutosh00710/github-readme-activity-graph)
-![IceEnd's GitHub stats](https://github-immortality.vercel.app/api?username=keaeye)
+
 <!-- 顶部徽章 -->
 <p align="center">
   <a href="https://keaeye.fun" target="_blank">
@@ -48,3 +48,4 @@
 - GitHub: [@keaeye](https://github.com/keaeye)
 
 ---
+![IceEnd's GitHub stats](https://github-immortality.vercel.app/api?username=keaeye)
