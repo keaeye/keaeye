@@ -25,7 +25,7 @@
 
 <br/>
 
-<img src="https://media.tenor.com/images/df8c44a1d20ab367fdcb21880985fd33/tenor.gif" align="right" width="30%" alt="coding-cat" />
+<img src="https://image.keaeye.fun/file/1744291288762_tenor.gif" align="right" width="30%" alt="coding-cat" />
 
 ### <img src="https://raw.githubusercontent.com/alexnaiman/alexnaiman/master/resources/PusheenCompute.gif" width="70px" /> I’m currently working on ...
 
