@@ -15,11 +15,11 @@
 
 <p align="center">
   <samp>
-    My name is <em>keaeye</em>. I am a Fullstack & mobile developer...<br/>
-    Javascript enthusiast... ReactJs lover. React Native addict.<br/>
-    (<em>ex</em>) Full-time student.<br/><br/>
-    Creating games for fun, composing songs,<br/>
-    continuously learning, wanting to help the community.
+    My name is <em>keaeye</em>, a developer passionate about exploring technology.<br/>
+    I enjoy JavaScript and love ReactJs, with strong interests in both frontend design and backend logic.<br/>
+    I always stay curious and eager to learn.<br/><br/>
+    My skills span various fields, including programming, web design, and system configuration.<br/>
+    I also love sharing and helping the community.
   </samp>
 </p>
 
