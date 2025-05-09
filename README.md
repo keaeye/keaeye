@@ -29,8 +29,8 @@
 
 ### <img src="https://raw.githubusercontent.com/keaeye/keaeye/main/emoji/PusheenCompute.gif" width="70px" /> I’m currently working on ...
 
-- <img src="https://raw.githubusercontent.com/keaeye/keaeye/main/emoji/3243_take_my_money.png" height="30px" /> A finance mobile app  
-- <img src="https://raw.githubusercontent.com/keaeye/keaeye/main/emoji/controller.png" width="30px" /> Games developed with friends
+- <img src="https://raw.githubusercontent.com/keaeye/keaeye/main/emoji/3243_take_my_money.png" height="30px" /> Personal websites and front-end experiments  
+- <img src="https://raw.githubusercontent.com/keaeye/keaeye/main/emoji/controller.png" height="30px" /> Linux-based system configuration and optimization  
 
 ### <img src="https://raw.githubusercontent.com/keaeye/keaeye/main/emoji/Confused_Dog.gif" height="50px" /> I’m currently learning ...
 
