@@ -44,7 +44,7 @@
 ### 📫 Contact Me
 
 - Website: [keaeye.fun](https://keaeye.fun)
-- Email: [one.keaeye.fun](mailto:one.keaeye.fun)
+- Email: [one@keaeye.fun](mailto:one@keaeye.fun)
 - GitHub: [@keaeye](https://github.com/keaeye)
 
 ---
