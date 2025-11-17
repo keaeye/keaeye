@@ -1,16 +1,3 @@
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=keaeye&theme=merko)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-<!-- 顶部徽章 -->
-<p align="center">
-  <a href="https://keaeye.fun" target="_blank">
-    <img src="https://img.shields.io/badge/Keaeye-Home-blue?style=flat-square&labelColor=blank" />
-  </a>
-  <img src="https://img.shields.io/badge/React_Native-Addict-61DAFB?style=flat-square&logo=react" />
-  <img src="https://img.shields.io/badge/Status-Always%20Learning-yellow?style=flat-square" />
-</p>
-
-<br/>
-
 ## <img src="https://raw.githubusercontent.com/keaeye/keaeye/main/emoji/welcomeglitch.gif" width="50px" /> Hello!
 
 <p align="center">
@@ -40,6 +27,19 @@
 - <img src="https://raw.githubusercontent.com/keaeye/keaeye/main/emoji/ml.png" height="35px" /> Machine Learning
 
 ---
+
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=keaeye&theme=merko)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+<!-- 顶部徽章 -->
+<p align="center">
+  <a href="https://keaeye.fun" target="_blank">
+    <img src="https://img.shields.io/badge/Keaeye-Home-blue?style=flat-square&labelColor=blank" />
+  </a>
+  <img src="https://img.shields.io/badge/React_Native-Addict-61DAFB?style=flat-square&logo=react" />
+  <img src="https://img.shields.io/badge/Status-Always%20Learning-yellow?style=flat-square" />
+</p>
+
+<br/>
 
 ### 📫 Contact Me
 
